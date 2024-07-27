@@ -9,7 +9,7 @@ public class JavaMemoryMain2 {
 
     static void method1() {
         System.out.println("method1 start");
-        Data data1= new Data();
+        Data data1= new Data(10);
         method2(data1);
         System.out.println("method1 end");
     }
